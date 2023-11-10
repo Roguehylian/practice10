@@ -90,6 +90,7 @@ function displaycards() {
 		ndx++
 	}
 	document.querySelector("#cards").innerHTML = cards_html
+	hideForm()
 }
 document.querySelector('#myForm').onsubmit = addNewCard
 document.querySelector('#new_card').onclick = hideCards
